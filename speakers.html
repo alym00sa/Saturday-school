@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speakers - The People's Saturday School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>TPSS</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">schooling</a>
+                    <div class="dropdown-menu">
+                        <a href="events.html" class="dropdown-item">events</a>
+                        <a href="speakers.html" class="dropdown-item active">speakers</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-link">contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-border-text" data-text="speakers"></div>
+        <section class="speakers-listing">
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" id="speakersSearch" placeholder="Search speakers by name..." class="search-input">
+                </div>
+            </div>
+        </section>
+
+        <section class="speakers-listing">
+            <div class="container">
+                <div class="speakers-grid" id="speakersGrid">
+                    <!-- Speakers will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

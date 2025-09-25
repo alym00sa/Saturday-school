@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The People's Saturday School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>TPSS</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">schooling</a>
+                    <div class="dropdown-menu">
+                        <a href="events.html" class="dropdown-item">events</a>
+                        <a href="speakers.html" class="dropdown-item">speakers</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-link">contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- THE PEOPLE'S - Full width under navbar -->
+        <section class="peoples-title">
+            <h1>THE PEOPLE'S</h1>
+        </section>
+
+        <!-- SATURDAY SCHOOL - Rotated 90 degrees clockwise -->
+        <div class="saturday-school-vertical">
+            <h2>SATURDAY SCHOOL</h2>
+        </div>
+
+        <!-- Tagline -->
+        <section class="tagline">
+            <p>where we learn about organizing through storytelling</p>
+        </section>
+
+        <!-- Main content area with frames -->
+        <section class="main-content">
+            <div class="image-frames">
+                <div class="frame-panel frame-1" id="framePanel1">
+                </div>
+                <div class="frame-panel frame-2" id="framePanel2"></div>
+                <div class="frame-panel frame-3" id="framePanel3"></div>
+            </div>
+        </section>
+
+        <section class="events">
+            <div class="container">
+                <h2>Check out our events!</h2>
+                <div class="carousel" id="eventsCarousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Events will be populated by JavaScript -->
+                        </div>
+                        <button class="carousel-btn carousel-btn-prev" id="prevBtn">&lt;</button>
+                        <button class="carousel-btn carousel-btn-next" id="nextBtn">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ALL ARE WELCOME - Under Events section -->
+        <section class="welcome-section">
+            <h1>ALL ARE WELCOME</h1>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

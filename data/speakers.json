@@ -1,0 +1,63 @@
+[
+    {
+      "id": "chandan-reddy",
+      "name": "Chandan Reddy",
+      "title": "Associate Professor, University of Washington",
+      "bio": "Chandan Reddy is Associate Professor in the departments of the Comparative History of Ideas and the Gender, Women and Sexuality Studies at the University of Washington, Seattle. His book, Freedom With Violence: Race, Sexuality and the U.S. State (2011) from Duke University Press won the Alan Bray Memorial award for Queer studies from the MLA as well as the Best Book in Cultural Studies from the Asian American Studies Association, both in 2013. He is co-editor (with Jodi Byrd, Alyosha Goldstein, and Jodi Melamed) of the special issue, “Economies of Dispossession: Indigeneity, Race, Capitalism,” Social Text (Spring 2018). His recent publications include, “Convergence, Dissymmetry, Duplicities: Enactments of Queer of Color Critique,” Cambridge Companion to Queer Studies, Siobhan Sommerville, ed. (New York: Cambridge University Press, 2020).",
+      "headshot": "assets/events/event2/speakers/chandan.jpg",
+      "books": [
+        {
+          "title": "Freedom With Violence: Race, Sexuality and the U.S. State",
+          "coverImage": "assets/books/freedom-with-violence.jpg",
+          "link": "https://read.dukeupress.edu/books/book/1592/Freedom-with-ViolenceRace-Sexuality-and-the-US"
+        }
+      ]
+    },
+    {
+      "id": "angelica-chazaro",
+      "name": "Angélica Cházaro",
+      "title": "Assistant Professor of Law, University of Washington",
+      "bio": "Angélica Cházaro writes, organizes, and teaches about immigration, abolition, and the carceral state. She works as an assistant professor at the University of Washington School of Law. For seven years, she worked as an attorney with the Northwest Immigrant Rights Project in Seattle, specializing in representing immigration survivors of violence. She has organized with La Resistencia to end immigrant detention in Washington State, with No New Youth Jail to stop the construction of a youth jail and court in King County, WA, and most recently with Decriminalize Seattle and Solidarity Budget to defund the Seattle Police Department and increase investments in Black and Brown communities.",
+      "headshot": "assets/events/event2/speakers/angelica.jpg",
+      "books": []
+    },
+    {
+      "id": "gail-lewis",
+      "name": "Gail Lewis",
+      "title": "Reader Emerita, Birkbeck College & Visiting Research Fellow, LSE",
+      "bio": "Gail Lewis was born in London, UK, to a Caribbean father and English mother. She has one sister. She is Reader Emerita in the Department of Psychosocial Studies at Birkbeck College and Senior Visiting Research Fellow at the Department of Gender Studies, LSE. She will be Visiting Professor at Yale University in the academic year 2021-22. She trained, first, as a Psychodynamic Psychotherapist and then as a Psychoanalytic Psychotherapist at the Tavistock Clinic. She was schooled by activism in matters of experience, subjectivity, inequality and freedom. Her political subjectivity was formed in the intensities of black feminist and anti-racist struggle and through a socialist, anti-imperialist lens. She was a member of the Brixton Black Women’s Group and one of the founder members of the Organisation of Women of African and Asian Descent, (both now defunct) Britain’s first national organisation for black and other women of colour. She is currently writing a book on black feminism in Britain and has written on feminism, intersectionality, the welfare state, and racialised-gendered experience. Her publications include ‘Race, Gender and Social Welfare: encounters in a postcolonial society’ (2000), Polity Press; ‘Citizenship: personal lives and social policy’ (2004), ed. Polity Press; ‘Birthing Racial Difference: conversations with my mother and others’ (2009) Studies in the Maternal; ‘Unsafe Travel: experiencing intersectionality and feminist displacements’ (2013) Signs: journal of women in culture and society; ‘Where Might I Find You’: Popular Music and the Internal Space of the Father’, (2012) Psychoanalysis, Culture and Society; ‘Questions of Presence’, (2017) Feminist Review, Issue 117; ‘Where Might We Go If We Dare: moving beyond the “thick, suffocating fog of whiteness” in feminism’, (2019) Feminist Theory; ‘Black Feminism and the Challenge of Object Use’ (2020) Feminist Review 126 (1). She works alongside artists and other creative practitioners to explore, disrupt and offer alternatives to the violent and violating representations of black and queer lives. She and Foluke Taylor were in conversation, discussing ‘Black Feminisms in the Consulting Room’ as part of the psychotherapeutic organisation, Confer’s module: ‘Women on the Couch’ (2020). She, along with Barby Asante, Foluke Taylor and others, did a recorded reading of M. NourbeSe Philip’s essay ‘Caribana: African Roots and Continuities’ for the podcast Dipsaus and first available to coincide with the on-line version of London’s annual Nottinghill Carnival in 2020. She also participated in NourbeSe Philips Zong! Global 2020. She believes that intergenerational conversations, as part of process of ancestral connection and guidance, are among the most urgent in these times. She is an Arsenal FC (soccer) fan.",
+      "headshot": "assets/events/event1/speakers/gail.jpg",
+      "books": [
+        {
+          "title": "Charting the Journey: Writings by Black and Third World Women",
+          "coverImage": "assets/books/charting-with-journey.jpg",
+          "link": "https://www.abebooks.com/Charting-Journey-Writings-Black-Third-World/30565255977/bd"
+        },
+        {
+          "title": "'Race', Gender, Social Welfare: Encounters in a Postcolonial Society",
+          "coverImage": "assets/books/race-gender-social-welfare.jpg",
+          "link": "https://www.wiley.com/en-us/'Race'%2C+Gender%2C+Social+Welfare%3A+Encounters+in+a+Postcolonial+Society-p-9780745622842"
+        },
+        {
+          "title": "Citizenship: personal lives and social policy",
+          "coverImage": "assets/books/citizenship-book.jpg",
+          "link": "https://policy.bristoluniversitypress.co.uk/citizenship"
+        }
+      ]
+    },
+    {
+      "id": "liliane-landor",
+      "name": "Liliane Landor",
+      "title": "Journalist & Broadcaster",
+      "bio": "Liliane Landor was active in the Black and Third World Women's Movement in Britain, and a founding member of the Women of Color Feminist Newspaper, Outwrite. Liliane is a journalist.",
+      "headshot": "assets/events/event1/speakers/liliane.png",
+      "books": [
+        {
+          "title": "Charting the Journey: Writings by Black and Third World Women",
+          "coverImage": "assets/books/charting-with-journey.jpg",
+          "link": "https://www.abebooks.com/Charting-Journey-Writings-Black-Third-World/30565255977/bd"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,22 @@
+[
+    {
+      "id": "event1",
+      "title": "The People's Saturday School: Abolition & Safety",
+      "date": "2025-04-26",
+      "time": "10:00 AM",
+      "location": "New Haven Peoples Center, 37 Howe Street, New Haven, CT",
+      "flyer": "assets/events/event2/flyer2.jpg",
+      "blurb": "This event featured Angélica Cházaro and Chandan Reddy, discussing abolition, policing, and organizing.",
+      "speakers": ["angelica-chazaro", "chandan-reddy"]
+    },
+    {
+      "id": "event2",
+      "title": "The People's Saturday School: Black Women’s Movements",
+      "date": "2025-03-29",
+      "time": "10:00 AM",
+      "location": "New Haven Peoples Center, 37 Howe Street, New Haven, CT",
+      "flyer": "assets/events/event1/flyer1.jpeg",
+      "blurb": "This event featured Gail Lewis and Liliane Landor, focusing on Black Women’s Movements in Britain and beyond.",
+      "speakers": ["gail-lewis", "liliane-landor"]
+    }
+  ]
