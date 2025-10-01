@@ -160,7 +160,7 @@ body {
 /* SATURDAY SCHOOL - Rotated 90 degrees clockwise */
 .saturday-school-vertical {
     position: absolute;
-    top: clamp(50rem, 190vh, 115rem);
+    top: clamp(50rem, 215vh, 110rem);
     right: clamp(5rem, 16vw, 20rem);
     transform: rotate(90deg) translateY(-50%);
     transform-origin: right center;
