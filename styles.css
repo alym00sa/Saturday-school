@@ -1053,18 +1053,21 @@ main {
     }
 
     .tagline p {
-        font-size: 1.2rem;
+        font-size: 0.95rem;
         line-height: 1.2;
     }
 
     .saturday-school-vertical {
-        top: 55vh;
-        right: -2rem;
-        z-index: 1000;
+        position: static;
+        transform: none;
+        text-align: center;
+        margin: 2rem 0;
+        padding: 0 1rem;
     }
 
     .saturday-school-vertical h2 {
-        font-size: 4rem;
+        font-size: 2.5rem;
+        line-height: 1;
     }
 
     .welcome-section {
@@ -1073,7 +1076,7 @@ main {
     }
 
     .welcome-section h1 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         line-height: 1;
     }
 
@@ -1083,7 +1086,7 @@ main {
 
     .events h2 {
         text-align: center;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .frame-text p {
@@ -1211,18 +1214,21 @@ main {
     }
 
     .tagline p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 1.2;
     }
 
     .saturday-school-vertical {
-        top: 50vh;
-        right: -3rem;
-        z-index: 1000;
+        position: static;
+        transform: none;
+        text-align: center;
+        margin: 1.5rem 0;
+        padding: 0 0.5rem;
     }
 
     .saturday-school-vertical h2 {
-        font-size: 3rem;
+        font-size: 2rem;
+        line-height: 1;
     }
 
     .welcome-section {
@@ -1231,7 +1237,7 @@ main {
     }
 
     .welcome-section h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         line-height: 1;
     }
 
