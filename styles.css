@@ -146,7 +146,7 @@ body {
 }
 
 .peoples-title h1 {
-    font-size: clamp(4rem, 12.5vw, 13.5rem);
+    font-size: clamp(4rem, 12.5vw, 13rem);
     font-weight: 900;
     color: var(--primary-color);
     margin: 0;
@@ -160,10 +160,8 @@ body {
 /* SATURDAY SCHOOL - Rotated 90 degrees clockwise */
 .saturday-school-vertical {
     position: absolute;
-    /* top: 215%;
-    right: 14rem; */
-    top: clamp(50rem, 190vh, 115rem);
-    right: clamp(5rem, 16vw, 20rem);
+    top: 215%;
+    right: 14rem;
     transform: rotate(90deg) translateY(-50%);
     transform-origin: right center;
     z-index: 500;
@@ -192,7 +190,7 @@ body {
 }
 
 .tagline p {
-    font-size: clamp(1.5rem, 4.5vw, 3.5rem);
+    font-size: clamp(1.5rem, 3.75vw, 3.2rem);
     font-weight: 550;
     color: var(--primary-color);
     margin: 0;
@@ -217,7 +215,7 @@ body {
 }
 
 .frame-panel {
-    width: clamp(290px, 26vw, 400px);
+    width: clamp(290px, 26vw, 390px);
     height: clamp(560px, 50vw, 750px);
     background-size: cover;
     background-position: center;
@@ -293,6 +291,10 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.highlight {
+    /* Removed background styling */
+}
+
 /* ALL ARE WELCOME - Under Events */
 .welcome-section {
     padding: 5rem 0;
@@ -303,7 +305,7 @@ body {
 }
 
 .welcome-section h1 {
-    font-size: clamp(3rem, 9vw, 9rem);
+    font-size: clamp(3rem, 9vw, 7.75rem);
     font-weight: 900;
     color: var(--primary-color);
     margin: 0;
