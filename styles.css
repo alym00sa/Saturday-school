@@ -223,7 +223,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    transition: all 10s ease-in-out;
+    transition: background-image 15s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,31 +234,31 @@ body {
 .frame-1 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: 0% center;
-    animation: frameCycle 21s ease-out infinite;
+    animation: frameCycle 25s step-end infinite;
 }
 
 .frame-2 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: 25% center;
-    animation: frameCycle 21s ease-out infinite;
+    animation: frameCycle 25s step-end infinite;
 }
 
 .frame-3 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: 50% center;
-    animation: frameCycle 21s ease-out infinite;
+    animation: frameCycle 25s step-end infinite;
 }
 
 .frame-4 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: 75% center;
-    animation: frameCycle 21s ease-out infinite;
+    animation: frameCycle 25s step-end infinite;
 }
 
 .frame-5 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: 100% center;
-    animation: frameCycle 21s ease-out infinite;
+    animation: frameCycle 25s step-end infinite;
 }
 
 @keyframes frameCycle {
