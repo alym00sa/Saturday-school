@@ -1053,7 +1053,7 @@ main {
     }
 
     .tagline p {
-        font-size: 0.95rem;
+        font-size: 1rem;
         line-height: 1.2;
     }
 
@@ -1061,7 +1061,7 @@ main {
         position: static;
         transform: none;
         text-align: center;
-        margin: 2rem 0;
+        margin: 2rem 0 3rem 0;
         padding: 0 1rem;
     }
 
@@ -1071,8 +1071,8 @@ main {
     }
 
     .welcome-section {
-        padding: 3rem 0 3rem 1rem;
-        text-align: left;
+        padding: 3rem 0 3rem 0;
+        text-align: center;
     }
 
     .welcome-section h1 {
@@ -1214,7 +1214,7 @@ main {
     }
 
     .tagline p {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         line-height: 1.2;
     }
 
@@ -1222,7 +1222,7 @@ main {
         position: static;
         transform: none;
         text-align: center;
-        margin: 1.5rem 0;
+        margin: 1.5rem 0 2.5rem 0;
         padding: 0 0.5rem;
     }
 
@@ -1232,8 +1232,8 @@ main {
     }
 
     .welcome-section {
-        padding: 3rem 0 3rem 1rem;
-        text-align: left;
+        padding: 3rem 0 3rem 0;
+        text-align: center;
     }
 
     .welcome-section h1 {
