@@ -212,39 +212,53 @@ body {
     margin: 0 2rem;
     position: relative;
     gap: .5rem;
+    max-width: calc(100% - 16rem);
 }
 
 .frame-panel {
-    width: clamp(290px, 26vw, 390px);
+    flex: 1;
+    width: calc(20% - 0.4rem);
     height: clamp(560px, 50vw, 750px);
-    background-size: cover;
-    background-position: center;
+    background-size: 500% auto;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    transition: all 6s ease-in-out;
+    transition: all 10s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
 }
 
-/* Single image split into 3 parts */
+/* Single image split into 5 parts */
 .frame-1 {
     background-image: url('assets/homepage/homepage2.jpg');
-    background-position: left center;
-    animation: frameCycle 14s ease-out infinite;
+    background-position: 0% center;
+    animation: frameCycle 21s ease-out infinite;
 }
 
 .frame-2 {
     background-image: url('assets/homepage/homepage2.jpg');
-    background-position: center center;
-    animation: frameCycle 14s ease-out infinite;
+    background-position: 25% center;
+    animation: frameCycle 21s ease-out infinite;
 }
 
 .frame-3 {
     background-image: url('assets/homepage/homepage2.jpg');
-    background-position: right center;
-    animation: frameCycle 14s ease-out infinite;
+    background-position: 50% center;
+    animation: frameCycle 21s ease-out infinite;
+}
+
+.frame-4 {
+    background-image: url('assets/homepage/homepage2.jpg');
+    background-position: 75% center;
+    animation: frameCycle 21s ease-out infinite;
+}
+
+.frame-5 {
+    background-image: url('assets/homepage/homepage2.jpg');
+    background-position: 100% center;
+    animation: frameCycle 21s ease-out infinite;
 }
 
 @keyframes frameCycle {
