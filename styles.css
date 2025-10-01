@@ -215,7 +215,7 @@ body {
 }
 
 .frame-panel {
-    width: clamp(280px, 25vw, 375px);
+    width: clamp(290px, 26vw, 390px);
     height: clamp(560px, 50vw, 750px);
     background-size: cover;
     background-position: center;
@@ -231,111 +231,42 @@ body {
 .frame-1 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: left center;
-    animation: frameCycle1 14s ease-out infinite;
+    animation: frameCycle 14s ease-out infinite;
 }
 
 .frame-2 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: center center;
-    animation: frameCycle2 14s ease-out infinite 2s;
+    animation: frameCycle 14s ease-out infinite;
 }
 
 .frame-3 {
     background-image: url('assets/homepage/homepage2.jpg');
     background-position: right center;
-    animation: frameCycle3 14s ease-out infinite 4s;
+    animation: frameCycle 14s ease-out infinite;
 }
 
-@keyframes frameCycle1 {
+@keyframes frameCycle {
     0%, 14% {
         background-image: url('assets/homepage/homepage2.jpg');
-        background-position: left center;
     }
     15%, 28% {
         background-image: url('assets/homepage/homepage3.jpg');
-        background-position: left center;
     }
     29%, 42% {
         background-image: url('assets/homepage/homepage5.jpg');
-        background-position: left center;
     }
     43%, 56% {
         background-image: url('assets/homepage/homepage6.jpg');
-        background-position: left center;
     }
     57%, 70% {
         background-image: url('assets/homepage/homepage7.jpg');
-        background-position: left center;
     }
     71%, 84% {
         background-image: url('assets/homepage/homepage9.jpg');
-        background-position: left center;
     }
     85%, 100% {
         background-image: url('assets/homepage/homepage10.jpg');
-        background-position: left center;
-    }
-}
-
-@keyframes frameCycle2 {
-    0%, 28% {
-        background-image: url('assets/homepage/homepage2.jpg');
-        background-position: center center;
-    }
-    29%, 42% {
-        background-image: url('assets/homepage/homepage3.jpg');
-        background-position: center center;
-    }
-    43%, 56% {
-        background-image: url('assets/homepage/homepage5.jpg');
-        background-position: center center;
-    }
-    57%, 70% {
-        background-image: url('assets/homepage/homepage6.jpg');
-        background-position: center center;
-    }
-    71%, 84% {
-        background-image: url('assets/homepage/homepage7.jpg');
-        background-position: center center;
-    }
-    85%, 98% {
-        background-image: url('assets/homepage/homepage9.jpg');
-        background-position: center center;
-    }
-    99%, 100% {
-        background-image: url('assets/homepage/homepage10.jpg');
-        background-position: center center;
-    }
-}
-
-@keyframes frameCycle3 {
-    0%, 42% {
-        background-image: url('assets/homepage/homepage2.jpg');
-        background-position: right center;
-    }
-    43%, 56% {
-        background-image: url('assets/homepage/homepage3.jpg');
-        background-position: right center;
-    }
-    57%, 70% {
-        background-image: url('assets/homepage/homepage5.jpg');
-        background-position: right center;
-    }
-    71%, 84% {
-        background-image: url('assets/homepage/homepage6.jpg');
-        background-position: right center;
-    }
-    85%, 92% {
-        background-image: url('assets/homepage/homepage7.jpg');
-        background-position: right center;
-    }
-    93%, 96% {
-        background-image: url('assets/homepage/homepage9.jpg');
-        background-position: right center;
-    }
-    97%, 100% {
-        background-image: url('assets/homepage/homepage10.jpg');
-        background-position: right center;
     }
 }
 
