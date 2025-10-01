@@ -190,7 +190,7 @@ body {
 }
 
 .tagline p {
-    font-size: clamp(1.5rem, 3.75vw, 3.2rem);
+    font-size: clamp(1.5rem, 3.2rem, 3.60vw);
     font-weight: 550;
     color: var(--primary-color);
     margin: 0;
