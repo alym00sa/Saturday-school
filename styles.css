@@ -360,7 +360,7 @@ main {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    width: calc(100vw - 12rem);
+    width: calc(100vw - 17%);
     margin-left: calc(-50vw + 50%);
 }
 
