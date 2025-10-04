@@ -200,7 +200,7 @@ body {
 
 /* Main content area with frames */
 .main-content {
-    padding: 0 0 4rem 0;
+    padding: 0 0 2rem 0;
     position: relative;
     background-color: var(--white);
 }
@@ -312,7 +312,7 @@ body {
     text-align: left;
     background-color: var(--white);
     padding-left: 3rem;
-    margin-top: -4rem;
+    margin-top: -6rem;
 }
 
 .welcome-section h1 {
@@ -353,6 +353,37 @@ main {
     margin-bottom: 2rem;
     color: var(--primary-color);
     text-align: left;
+}
+
+/* Events Title Animation */
+.events-title-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: calc(100vw - 12rem);
+    margin-left: calc(-50vw + 50%);
+}
+
+.events-scroll-text {
+    display: inline-block;
+    /* padding: 0.5rem 1rem; */
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    animation: scrollRightToLeft 200s linear infinite;
+    font-family: 'Fredoka One', 'Comic Sans MS', 'Arial Rounded MT Bold', cursive;
+}
+
+@keyframes scrollRightToLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 /* Animated Border Text for Pages */
@@ -593,6 +624,8 @@ main {
 .carousel {
     position: relative;
     overflow: visible;
+    /* max-width: calc(100% - 16rem);
+    /* padding: 2rem; */
     max-width: 100%;
     padding: 0 60px;
 }
@@ -627,6 +660,7 @@ main {
 .carousel-item:hover {
     transform: translateY(-5px);
 }
+
 
 .carousel-btn {
     position: absolute;
@@ -969,7 +1003,7 @@ main {
     }
 
     .welcome-section {
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
 
     .image-frames {
